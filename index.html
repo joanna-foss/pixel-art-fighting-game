@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta lang="en">
+    <title>fight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="health-bars">
+            <!--player health-->
+            <div class="health" id="player-health">
+                <div id="player-life-bar"></div>
+                <div id="player-hit-bar"></div>
+            </div>
+            <!--timer-->
+            <div id="timer"></div>
+            <!--enemy health-->
+            <div class="health" id="enemy-health">
+                <div id="enemy-hit-bar"></div>
+                <div id="enemy-life-bar"></div>
+            </div>
+        </div>
+        <div class="hidden" id="winner">The Winner Text Goes Here</div>
+        <canvas></canvas>
+    </div>
+    <script src="js/classes.js"></script>   
+    <script src="js/utils.js"></script>   
+    <script src="js/script.js"></script>
+</body>
+</html>

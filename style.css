@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+
+#health-bars {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.health {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#player-health {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#player-life-bar {
+    z-index: 2;
+    background-color: yellow;
+    height: 40px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#player-hit-bar {
+    position: absolute;
+    background-color: orange;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+}
+
+#timer {
+    background-image: url("./img/smallboxframe.png");
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#enemy-life-bar {
+    position: absolute;
+    background-color: yellow;
+    height: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#enemy-hit-bar {
+    background-color: orange;
+    height: 40px;
+}
+
+#winner {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
