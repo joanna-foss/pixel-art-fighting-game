@@ -35,7 +35,7 @@ const background3 = new Background({
 
 const shop = new Sprite({
     position: {
-        x: 680,
+        x: 550,
         y: 222
     },
     width: 50,
@@ -52,10 +52,6 @@ const player = new Fighter({
         y: 0
     },
     velocity: {
-        x: 0,
-        y: 0
-    },
-    offset: {
         x: 0,
         y: 0
     },
@@ -119,10 +115,6 @@ const enemy = new Fighter({
         y: 0
     },
     color: "red",
-    offset: {
-        x: -50,
-        y: 0
-    },
     height: 200,
     width: 65,
     img_src: "./img/wormSprite/Worm/Idle.png",
