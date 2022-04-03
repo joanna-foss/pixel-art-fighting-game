@@ -21,7 +21,11 @@ This web game is the 2nd game I've coded and I made it using HTML, HTML Canvas, 
 
 [![Play Game](<green_play.png>)](<https://joanna-foss.github.io/pixel-art-fighting-game/> "Fighting Game")
 
-[Play Button Art](<https://www.vecteezy.com/free-vector/game-buttons>)
-
 
 For the most part, I followed the tutorial made by Chris Courses on YouTube, but I found that I did not want to use some of the techniques used to code during that tutorial and decided to code/structure things just a bit differently for my own personal taste.
+
+### Attributions
+
+- [Background & Shop Art](<https://brullov.itch.io/>)
+- [Player & Worm Art](<https://luizmelo.itch.io/>)
+- [Play Button Art](<https://www.vecteezy.com/free-vector/game-buttons>)
