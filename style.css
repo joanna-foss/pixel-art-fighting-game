@@ -29,7 +29,7 @@
 
 #player-life-bar {
     z-index: 2;
-    background-color: yellow;
+    background-color: #B4C6F5;
     height: 40px;
     width: 100%;
     top: 0;
@@ -40,7 +40,7 @@
 
 #player-hit-bar {
     position: absolute;
-    background-color: orange;
+    background-color: #874E40;
     height: 40px;
     width: 100%;
     z-index: 1;
@@ -60,7 +60,7 @@
 
 #enemy-life-bar {
     position: absolute;
-    background-color: yellow;
+    background-color: #B4C6F5;
     height: 40px;
     top: 0;
     left: 0;
@@ -69,7 +69,7 @@
 }
 
 #enemy-hit-bar {
-    background-color: orange;
+    background-color: #874E40;
     height: 40px;
 }
 
