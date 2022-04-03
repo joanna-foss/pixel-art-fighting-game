@@ -2,7 +2,7 @@
 
 This is a 2-player desktop game. The point of the game is to reduce your opponent's life bar down to 0 first to win the game. If time expires before either player dies, then the player with the higher health bar wins the game.
 
-This web game is the 2nd game I've coded and I decided to make it using HTML, HTML Canvas, CSS, and JavaScript because those are the languages I am most familiar with.
+This web game is the 2nd game I've coded and I made it using HTML, HTML Canvas, CSS, and JavaScript.
 
 ## To play
 
