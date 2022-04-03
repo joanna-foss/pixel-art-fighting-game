@@ -19,6 +19,7 @@ This web game is the 2nd game I've coded and I decided to make it using HTML, HT
 - `down arrow` - attack
 
 
-![Play](green_play.png)
+[![Play Game](<green_play.png>)](<https://joanna-foss.github.io/pixel-art-fighting-game/> "Fighting Game")
+
 
 For the most part, I followed the tutorial made by Chris Courses on YouTube, but I found that I did not want to use some of the techniques used to code during that tutorial and decided to code/structure things just a bit differently for my own personal taste.
