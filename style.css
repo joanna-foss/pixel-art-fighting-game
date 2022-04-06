@@ -81,9 +81,11 @@
     display: none;
     justify-content: center;
     align-items: center;
+
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
+    
     top:0;
     right:0;
     bottom:0;
